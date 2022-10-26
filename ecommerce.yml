@@ -1,5 +1,5 @@
 token:
-  expiration_time: 864
-  secret: 씨발련
+  expiration_time: 86400000
+  secret: my-token
 gateway:
   ip: 172.30.1.39
