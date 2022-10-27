@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
-    username: sa
+    username: "{cipher}04241ce43800284e61a33a81fce3c981d6e945a5f17304fc380be1855d8dfbca"
 token:
   expiration_time: 86400000
   secret: my-token-prod
